@@ -1,0 +1,3 @@
+
+
+Instance,Seed,NumScenarios,NumResources,NumMaxTrips,TotalIterations,TotalTime,LargeOffset,LastUpdateIteration,LastUpdateTime,Costauto_generated_6,111,2,2,14,7,4129.67,1,1,375.28,324
