@@ -1,0 +1,13 @@
+Origin,Destination,Distance
+Safe dock 03,Evac dock 00,28.678406441319435
+Safe dock 03,Evac dock 01,1.432473651220918
+Safe dock 03,Evac dock 02,28.32356730531701
+Safe dock 03,Evac dock 03,9.556064241179723
+Evac dock 02,Evac dock 00,0.0
+Evac dock 02,Evac dock 01,0.0
+Evac dock 02,Evac dock 02,0.0
+Evac dock 02,Evac dock 03,0.0
+Evac dock 00,Evac dock 00,0.0
+Evac dock 00,Evac dock 01,0.0
+Evac dock 00,Evac dock 02,0.0
+Evac dock 00,Evac dock 03,0.0
