@@ -1,2 +1,6 @@
 # ICEP-MP-BRKGA-solver
-A solution approach for the Isolated Community Evacuation Problem using the Multi-Parent Biased Random Key Genetic Algorithm (MP-BRKGA)
+A solution approach for the Isolated Community Evacuation Problem (ICEP) using the Multi-Parent Biased Random Key Genetic Algorithm (MP-BRKGA).
+
+The Isolated Community Evacuation Problem (ICEP) presented by Krutein and Goodchild (2022), is an evacuation routing problem for communities without permanent road connections that can be used to evacuate a population. As the paper highlights, the problem is complex and for large instances difficult to solve for a commercial solver. Exact implementations presented in package https://github.com/singfie/ICEP-exact-implementation struggled to solve the problem as quickly as desired in an emergency evacuation. While attempts were made to solve the problem more efficiently through a structure-based greedy heuristic in package https://github.com/singfie/ICEP-structured-greedy-heuristics, these heuristics were not reliably capable to reach a high solution quality. This package aims to approximately solve the problem with the MP-BRKGA meta-heuristic. The original MP-BRKGA framework can be found under https://github.com/ceandrade/brkga_mp_ipr_python. 
+
+The corresponding paper was submitted to the Proceedings of the Winter Simulation Conference 2022 for presentation and publication. 
