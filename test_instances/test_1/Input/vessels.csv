@@ -1,0 +1,3 @@
+Vessel_name,Vessel_type,contract_cost,operating_cost,Regular_origin,max_cap,vmax,v_loaded,loading time,time to availability,information
+Vessel 1,SAR vessel,8000.0,400.0,Safe dock 00,24,10.0,10.0,10.0,11.537672825639762,
+Vessel 2,SAR vessel,8000.0,50.0,Safe dock 00,33,20.0,20.0,9.0,10.355416639670384,
