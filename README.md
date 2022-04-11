@@ -43,3 +43,16 @@ This file generates an artifical set of simulation data.
 # generate_outputs.py
 This file prints outputs from the best solution of the MP-BRKGA, in the form of a route plan. 
 
+# pyomo_ICEP_model_generator.py
+This file generates an instance of a S-ICEP model for an exact solver, given input data that can be solved using the Pyomo environment.
+
+# pyomo_ICEP_model_run.py
+This file runs an instance of the S-ICEP model in an exact solver and prints route plan outputs and performance stats to data frames for each scenario.
+This data set takes all the input data required to describe the S-ICEP as inputs. It can be run from the command line,
+and takes the following inputs:
+- the path to the dataset
+- a penalty for every evacuee that is not evacuated in any scenario
+- a route time limit setting the maximum duration of the route plan in any scenario
+- a run time limit for the optimization procedure
+- an objective function, that is to be selected from the objectives presented in the corresponding paper.  
+
