@@ -26,7 +26,7 @@ file_path='/instances/$name'
 # python generate_test_data.py -s $seed -r $resources -l $locations -sc $scenarios -n $name
 
 # run the experiment with Gurobi
-python3.7 pyomo_ICEP_model_run.py -path $name -penalty $penalty -route_time_limit $plan_length_limit -run_time_limit $run_time_limit
+python pyomo_ICEP_model_run.py -path $name -penalty $penalty -route_time_limit $plan_length_limit -run_time_limit $run_time_limit
 # 
 # run the experiment in the BRKGA with presolve
 python main_complete.py -c config.conf -s $seed -r IMPROVEMENT -a $argument -t $run_time_limit -p True -i $name -q $penalty -u $plan_length_limit
